@@ -15,6 +15,8 @@ This extension enhances the catalog feature in Magento 2.
 
 It adds a new configuration field under `STORES > Settings > Configuration > CATALOG > Catalog > Storefront` called `Product Listing Default Sort Order`. This field controls the default order of the sorting in the product listing pages (PLP).
 
+![alt text](https://github.com/magedin/magento2-module-enhanced-catalog/blob/master/.github/assets/images/config-field.png?raw=true)
+
 ## Installation
 
 ```bash
