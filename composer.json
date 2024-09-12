@@ -1,0 +1,34 @@
+{
+    "name": "magedin/module-enhanced-catalog",
+    "description": "This module enhances the default Magento catalog functionality.",
+    "type": "magento2-module",
+    "require": {
+        "php": "^7.4||^8.0",
+        "magento/framework": "*",
+        "magento/module-catalog": "*"
+    },
+    "license": [
+        "MIT"
+    ],
+    "authors": [
+        {
+            "name": "MagedIn Technology",
+            "email": "support@magedin.com"
+        }
+    ],
+    "support": {
+        "email": "support@magedin.com"
+    },
+    "minimum-stability": "stable",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "MagedIn\\EnhancedCatalog\\": ""
+        }
+    },
+    "extra": {
+        "module": "MagedIn_EnhancedCatalog"
+    }
+}
